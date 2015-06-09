@@ -24,12 +24,24 @@
     <ClCompile Include="sqlite3.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="mem_db.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mem_web.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mongoose.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="sqlite3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_db.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_web.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
